@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EfCoreDialogsState">
+    <option name="keyValueStorage">
+      <map>
+        <entry key="Common:824265d6-d223-4055-ad52-729c853e28a5:dbContext" value="HRLeaveManagement.Persistence.DatabaseContext.HRDatabaseContext" />
+        <entry key="Common:buildConfiguration" value="Debug" />
+        <entry key="Common:ccbbf9d3-373d-43fb-b596-fd4d677cd9b7:dbContext" value="HRLeaveManagement.Persistence.DatabaseContext.HRDatabaseContext" />
+        <entry key="Common:noBuild" value="false" />
+        <entry key="Common:outputFolder" value="Migrations" />
+        <entry key="Common:useDefaultConnection" value="true" />
+      </map>
+    </option>
+  </component>
+</project>
