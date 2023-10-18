@@ -13,8 +13,7 @@ public static class PersistenceServiceRegistration
     {
         services.AddDbContext<HRDatabaseContext>(options =>
         {
-            options.UseOracle(configuration.GetConnectionString("HRDatabaseConnectionString")
-                , b => b.MigrationsAssembly("HRLeaveManagement.Api"));
+            options.UseSqlServer(configuration.GetConnectionString("HRDatabaseConnectionString"));
         });
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

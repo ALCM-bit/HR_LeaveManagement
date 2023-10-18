@@ -1,0 +1,12 @@
+﻿using HRLeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;
+
+namespace HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetAllocations;
+
+public class LeaveAllocationDto
+{
+    public int Id { get; set; }
+    public int NumberOfDays { get; set; }
+    public LeaveTypeDto Leavetype { get; set; }
+    public int LeaveTypeId { get; set; }
+    public int Period { get; set; }
+}

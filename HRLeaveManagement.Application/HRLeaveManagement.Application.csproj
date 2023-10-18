@@ -23,4 +23,9 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Features\LeaveAllocation\Commands\" />
+      <Folder Include="Features\LeaveAllocation\Queries\GetAllocationDetails\" />
+    </ItemGroup>
+
 </Project>
